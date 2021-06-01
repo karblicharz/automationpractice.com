@@ -27,9 +27,9 @@ class SignInPage:
         self.driver.find_element_by_id(self.password_id).clear()
         self.driver.find_element_by_id(self.password_id).send_keys(password)
 
-    def log_into_app(self, username):
+    def type_credentials(self, username):
         self.type_username(username)
         self.type_password(get_user_password(username))
 
-    def click_login_button(self):
+    def click_login(self):
         self.driver.find_element_by_id(self.login_button_id).click()

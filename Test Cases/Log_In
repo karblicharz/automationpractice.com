@@ -1,0 +1,12 @@
+Step 1
+Description - Open http://automationpractice.com/ website and click on Sign in button
+Expected - Sign in page is visible
+Step 2
+Description - Provide credentials and click Log in
+Expected - User is logged in
+Step 3 (screenshot)
+Description - Verify that user first and last name visible at header bar are valid
+Expected - User first and last name visible at header bar are valid
+Step 4 
+Description - Sign out from application
+Expected - User is logged out

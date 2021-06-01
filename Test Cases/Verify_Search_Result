@@ -1,0 +1,7 @@
+Step 1
+Description - Open http://automationpractice.com/ website and type "dress" in search.
+	Click search button
+Expected - Search results are visible
+Step 2
+Description - Verify that all visible products have "dress" word in names
+Expected - All visible products have "dress" word in names

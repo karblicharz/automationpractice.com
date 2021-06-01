@@ -9,7 +9,7 @@ class BaseTest:
 
     def setUp(self):
         self.options = Options()
-        self.options.headless = False
+        self.options.headless = True
         self.options.add_argument("--start-maximized")
         self.driver = webdriver.Chrome('../resources/chromedriver.exe', options=self.options)
         self.driver.get(get_environment())
